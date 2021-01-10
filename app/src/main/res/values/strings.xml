@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bariera Lui Mario</string>
+    <string name="open">Deschide</string>
+    <string name="auto_call">Auto Apel</string>
+    <string name="gate">Bariera</string>
+    <string name="info">Info</string>
+</resources>
