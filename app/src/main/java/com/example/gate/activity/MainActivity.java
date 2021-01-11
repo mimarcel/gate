@@ -21,7 +21,7 @@ import com.example.gate.R;
 
 public class MainActivity extends AppCompatActivity {
     SwitchCompat enableAutoCall;
-    public static com.example.gate.Gate Gate;
+    public com.example.gate.Gate Gate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         Gate = new Gate(this);
 
-        enableAutoCall = (SwitchCompat) findViewById(R.id.enableAutoCallSwitch);
+        enableAutoCall = findViewById(R.id.enableAutoCallSwitch);
         enableAutoCall.setChecked(Gate.isAutoCallEnabled());
         enableAutoCall.setOnCheckedChangeListener(this::onEnableAutoCallChecked);
     }
